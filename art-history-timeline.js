@@ -135,7 +135,6 @@ function render(){
       ${cols.map(c=>`<div class="nrow"><b>${c[0]}</b><span>${c[1]}</span></div>`).join('')}</div>`;
   }
   side.innerHTML = `
-    <div class="crumb">📁 ${p.n} / Description</div>
     <div class="folder" style="--g0:${p.grad[0]};--g1:${p.grad[1]}">
       <span class="tab"></span><span class="fbody"></span></div>
     <div class="fname">${p.n} <span>${p.en}</span></div>
